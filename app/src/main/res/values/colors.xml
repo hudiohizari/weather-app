@@ -9,9 +9,4 @@
     <!-- View color. -->
     <color name="background">@android:color/white</color>
 
-    <!-- Named color. -->
-    <color name="neutral_50">#F5F5F5</color>
-    <color name="neutral_700">#707070</color>
-    <color name="neutral_900">#333333</color>
-
 </resources>
