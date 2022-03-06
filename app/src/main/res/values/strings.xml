@@ -2,6 +2,12 @@
 
     <string name="app_name">Weather</string>
 
+    <!-- Network Checking. -->
+    <string name="cantConnectToInternet">Device not connected to the internet</string>
+    <string name="failedToConnectToServer">Failed to connect to the server</string>
+    <string name="serverDown">Sorry, server is unreachable, please try again later</string>
+    <string name="errorString">Error: %1s</string>
+
     <!-- List Item Default. -->
     <string name="reload">Reload</string>
 

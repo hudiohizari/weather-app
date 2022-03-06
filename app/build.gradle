@@ -11,6 +11,10 @@ plugins {
 android {
     compileSdk 32
 
+    def envFile = file("env.properties")
+    Properties env = new Properties()
+    env.load(new FileInputStream(envFile))
+
     defaultConfig {
         applicationId "id.hudiohizari.weather"
         minSdk 21
@@ -19,6 +23,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "BASE_URL", env["BASE_URL"]
+        buildConfigField "String", "API_KEY", env["API_KEY"]
     }
 
     buildTypes {
