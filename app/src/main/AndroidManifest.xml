@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather" >
         <activity
-            android:name=".ui.dashboard.DashboardActivity"
+            android:name=".ui.navigation.NavigationActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

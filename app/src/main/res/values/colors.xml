@@ -9,4 +9,7 @@
     <!-- View color. -->
     <color name="background">@android:color/white</color>
 
+    <!-- Single color. -->
+    <color name="grey">#BDBDBD</color>
+
 </resources>

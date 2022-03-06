@@ -2,13 +2,21 @@
 
     <string name="app_name">Weather</string>
 
+    <!--Utils-->
+    <string name="emptyText">Empty Text</string>
+    <string name="reload">Reload</string>
+
     <!-- Network Checking. -->
     <string name="cantConnectToInternet">Device not connected to the internet</string>
     <string name="failedToConnectToServer">Failed to connect to the server</string>
     <string name="serverDown">Sorry, server is unreachable, please try again later</string>
     <string name="errorString">Error: %1s</string>
 
-    <!-- List Item Default. -->
-    <string name="reload">Reload</string>
+    <!--Navigation Main-->
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+
+    <!--Dashboard-->
+    <string name="pressOnceMore">Press once more to exit app</string>
 
 </resources>
